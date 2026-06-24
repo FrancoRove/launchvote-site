@@ -32,6 +32,9 @@ LaunchVote helps groups create sessions, suggest places, vote, and decide where 
 ### Crash Diagnostics
 - **Crash reports** — if the app crashes, diagnostic information (such as device type, OS version, and crash details) may be collected automatically to help us identify and fix issues. Crash data is processed by Firebase Crashlytics, a Google service. Crash reports are used only for app stability and are not used for advertising or tracking.
 
+### Push Notifications
+- **Device token** — if you enable notifications, a push notification token is stored to deliver notifications about friend requests and session invites. This token is a per-device identifier used only for notification delivery. It is not used for advertising or cross-app tracking.
+
 ## Information We Do Not Collect
 
 - No payment or financial data.
@@ -42,7 +45,6 @@ LaunchVote helps groups create sessions, suggest places, vote, and decide where 
 - No contacts or address book access.
 - No health, fitness, or sensitive personal data.
 - No photo or camera access (photo features are not currently active).
-- No push notification tokens.
 
 ## How We Use Information
 
@@ -71,6 +73,7 @@ LaunchVote uses the following services to operate:
 - **Firebase Authentication** — for account creation and sign-in (email, Google, Apple, and anonymous/guest).
 - **Cloud Firestore** — for storing session, suggestion, vote, invitation, username, friend, and group data.
 - **Firebase Crashlytics** — for collecting crash reports to improve app stability.
+- **Firebase Cloud Messaging** — for delivering push notifications about friend requests and session invites.
 - **Google Sign-In** — for signing in with a Google account.
 - **Sign in with Apple** — for signing in with an Apple ID.
 - **Apple MapKit** — for searching nearby places using your location.
