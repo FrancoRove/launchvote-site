@@ -1,0 +1,16 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["Z9T78C6Y2W.com.francorove.LunchVote"],
+        "components": [
+          {
+            "/": "/join",
+            "?": { "code": "?*" },
+            "comment": "LaunchVote session join deep link"
+          }
+        ]
+      }
+    ]
+  }
+}

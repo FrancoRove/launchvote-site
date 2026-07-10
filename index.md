@@ -9,7 +9,7 @@ LaunchVote helps groups suggest, vote, and decide where to go — whether it's l
 - Create group voting sessions with a title, date, and voting deadline.
 - Invite others with a join code or shareable link.
 - Search nearby places and suggest your favorites.
-- Vote as a group — one vote per person, change anytime before the deadline.
+- Vote as a group and update your choices anytime before the deadline.
 - See the winner after voting closes.
 - Keep past and expired sessions organized.
 - Add friends by exact username and organize them into crews.

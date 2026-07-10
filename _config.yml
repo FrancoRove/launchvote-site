@@ -1,2 +1,3 @@
 title: LaunchVote
 description: Plan where to go, vote with friends, launch the outing.
+include: [".well-known"]
